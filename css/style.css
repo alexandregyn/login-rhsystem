@@ -67,6 +67,9 @@
 }
 
 .login .label-input .input-per {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
   border-bottom: 2px solid #7092BE;
 }
 
@@ -77,6 +80,7 @@
 
 .login .label-input .input-per input {
   height: 35px;
+  width: 100%;
   border: none;
   outline: none;
 }
