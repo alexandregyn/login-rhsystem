@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login.grid-area {
+  display: grid;
+  grid-template-areas: 'fundo form';
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: 100vh;
+}
+
+.login .fundo {
+  background-color: #b0c3db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .fundo img {
+  width: 80%;
+}
+
+.login .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login form {
+  height: 100%;
+}
+
+.login .logo-uni {
+  display: flex;
+  justify-content: center;
+  padding: 35px 0;
+}
+
+.login .form-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .text-login {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10%;
+  color: #9b9b9b;
+}
+
+.login .text-login span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7092BE;
+}
+
+.login .label-input {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.login .label-input label {
+  color: #7092BE;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8em;
+}
+
+.login .label-input input {
+  height: 35px;
+  border: none;
+  border-bottom: 2px solid #7092BE;
+  outline: none;
+}
+
+.login .btn {
+  width: 35%;
+  height: 40px;
+  border: none;
+  background-color: #7092BE;
+  color: white;
+  margin-top: 50px;
+  transition: all .3s;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.login .btn:hover {
+  background-color: #597599;
+}
+
+.login .mt-1 {
+  margin-top: 10px;
+}
+
+.login .mt-2 {
+  margin-top: 20px;
+}
+
+.login .mt-3 {
+  margin-top: 30px;
+}
